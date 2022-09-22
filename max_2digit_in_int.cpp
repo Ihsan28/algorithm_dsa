@@ -25,10 +25,9 @@ int max_numbers(int num)
         {
             max = arr[decr];
         }
-        cout << arr[decr] << " ";
         num /= 10;
         decr++;
-        cout << decr << " ";
+        
     }
 
     return max;
